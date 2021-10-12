@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a p {
+    font-size: 14px;
+    padding: 30px 30px;
+    line-height: 1.57;
+    transition: all ease-in-out 0.3s;
+    color: #787878;
+}
+
+a h2 {
+    font-size: 21px;
+    padding: 60px 30px 0;
+    transition: all ease-in-out 0.2s;
+}
+
+a img {
+    padding-top: 63px;
+    transition: all ease-in-out 0.3s;
+}
+
+main {
+    color: #9a9a9a;
+    font-size: 8px;
+    display: block;
+    text-align: center;
+}
+
+section {
+    padding: 100px 0 40px;
+}
+
+section div {
+    width: 230px;
+    height: 420px;
+    display: inline-block;
+    background-color: #F7F7F7;
+    color: black;
+    border: 1px solid #EDEDED;
+    margin: 0 -1px;
+    transition: all ease-in-out 0.3s;
+}
+
+section div:hover {
+    background-color: rgba(0, 201, 204, 0.8);
+}
+
+
+section div:hover p,
+section div:hover h2 {
+    color: white;
+    text-shadow: 1px 2px 8px black;
+    
+}
+
+section div:hover img {
+    filter: invert(1) drop-shadow(1px 2px 10px black);
+}
+
+.header {
+    margin: 0 25%;
+}
+
+.header h1 {
+    margin-bottom: 30px;
+    padding-top: 140px;
+    letter-spacing: 5px;
+}
+
+.header span {
+    color: #00c9cc;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.header p {
+    color: #9a9a9a;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    padding-top: 35px;
+    letter-spacing: 3px;
+}
+
+.linear {
+    padding-top: 58px;
+}
+
+.linearh2 {
+    padding: 40px 30px 0;
+}
+
+.button {
+    font-size: 20px;
+    padding: 0 15%;
+    text-shadow: 2px 2px 9px yellow;
+    color: black;
+}

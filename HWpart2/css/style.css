@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: #0082CF;
+}
+
+body {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+main {
+    background-color: #009ACF;
+    margin: 20px;
+    color: white;
+}
+
+main h1, main p {
+    padding: 20px 15%;
+}
+
+section {
+    border: 3px solid white;
+    margin: 0 auto;
+    width: 70%;
+}
+
+ul {
+    font-size: 0px;
+}
+
+li {
+    list-style: none;
+    font-size: 15px;
+    display: inline-block;
+    border: 3px solid white;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all ease-in-out 0.5s;
+}
+
+i {
+    display: inline-block;
+}
+
+div i:last-child {
+    transition: all ease-in 0.2s;
+    transition: all ease-out 0.4s;
+}
+
+h1 i {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+main p {
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+li p {
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+li:first-child, li:nth-child(9) {
+    width: 50%;
+    background-color: #009ACF;
+}
+
+li:last-child {
+    width: 100%;
+    background-color: #66669C;
+}
+
+li:nth-child(2) {
+    background-color: #00CDCD;
+}
+
+li:nth-child(3) {
+    background-color: #AA669C;
+}
+
+li:nth-child(4) {
+    background-color: #E04545;
+}
+
+li:nth-child(5) {
+    background-color: #FF6747;
+}
+
+li:nth-child(6) {
+    background-color: #FFCD5E;
+}
+
+li:nth-child(7) {
+    background-color: #7FCD98;
+}
+
+li:nth-child(8) {
+    background-color: #439A9A;
+}
+
+li:nth-child(9) {
+    background-color: #E7669C;
+}
+
+li:nth-child(10) {
+    background-color: #009A63;
+}
+
+ul:hover li:not(:hover) {
+    opacity: 30%;
+}
+
+a div {
+    transition: all ease-in-out 0.3s;
+}
+
+li:hover a div {
+    text-shadow: 2px 2px 6px black;
+}
+
+li:hover div i:last-child {
+    text-shadow: 1px 1px 5px white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a p {
+    font-size: 27px;
+}
+
+a div {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+div span {
+    font-size: 27px;
+    color: white;
+    opacity: 80%;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+div i {
+    font-size: 40px;
+    color: white;
+    opacity: 80%;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+div i:first-child {
+    vertical-align: text-top;
+}
+
+p i {
+    font-size: 25px;
+    vertical-align: text-top;
+}
+
+.button {
+    padding: 0 15%;
+    text-shadow: 2px 2px 9px yellow;
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    src: url(../font/lucidagrande.ttf);
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    src: url(../font/lucidagrande_bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: url(../font/lucidasansunicode.ttf);
+}
